@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         try {
             // Replace 'your-formspree-endpoint' with your actual Formspree form ID
-            const response = await fetch('https://formspree.io/f/xeokqvyl', {
+            const response = await fetch('https://formspree.io/f/mjkrvzpp', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -81,17 +81,17 @@ const subjects = [
     {
         name: 'Mathematics',
         description: 'Comprehensive mathematics covering algebra, geometry, and more',
-        timing: 'Mon, Wed, Fri: 4:00 PM - 5:30 PM'
+        
     },
     {
         name: 'Science',
         description: 'Physics, Chemistry, and Biology with practical applications',
-        timing: 'Tue, Thu, Sat: 4:00 PM - 5:30 PM'
+        
     },
     {
         name: 'English',
         description: 'Grammar, comprehension, and communication skills',
-        timing: 'Mon, Wed, Fri: 5:30 PM - 7:00 PM'
+        
     }
 ];
 
@@ -103,10 +103,7 @@ if (subjectsGrid) {
         card.innerHTML = `
             <h3>${subject.name}</h3>
             <p>${subject.description}</p>
-            <div class="timing">
-                <i class="far fa-clock"></i>
-                ${subject.timing}
-            </div>
+            
         `;
         subjectsGrid.appendChild(card);
     });
