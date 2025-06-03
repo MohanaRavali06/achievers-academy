@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AchieversAcademy.in - Excellence in Education</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">AchieversAcademy.in</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#subjects">Subjects</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="cta-button">Free Trial Class</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Achievers Academy</h1>
+            <p>Nurturing Excellence, Building Futures</p>
+            <div class="video-container">
+                <video controls>
+                    <source src="./videos/Basics of Programming (2).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <a href="#contact" class="cta-button">Book Your Free Trial Class</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="teacher-info">
+                    <img src="./images/teacher-image.jpg" alt="Teacher's Photo" class="teacher-photo">
+                    <h3>Teacher's Name</h3>
+                    <p>Experienced educator with X years of teaching excellence</p>
+                </div>
+                <div class="academy-info">
+                    <p>Welcome to Achievers Academy, where we believe in nurturing every student's potential through personalized attention and proven teaching methodologies.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Personalized attention to each student</li>
+                        <li><i class="fas fa-check"></i> Proven teaching methodology</li>
+                        <li><i class="fas fa-check"></i> Regular assessments and feedback</li>
+                        <li><i class="fas fa-check"></i> Doubt clearing sessions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects" class="subjects">
+        <div class="container">
+            <h2>Subjects & Class Timings</h2>
+            <div class="subjects-grid">
+                <!-- Subject cards will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Achievers+Academy+Visakhapatnam+Andhra+Pradesh"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <div class="address-info">
+                <p><i class="fas fa-map-marker-alt"></i> Achievers Academy, Visakhapatnam, Andhra Pradesh</p>
+                <p><i class="fas fa-phone"></i> 9177746680</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Book Your Free Trial Class</h2>
+            <form id="trial-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" required placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <select id="class" name="class" required>
+                        <option value="">Select Your Class</option>
+                        <option value="8">Class 8</option>
+                        <option value="9">Class 9</option>
+                        <option value="10">Class 10</option>
+                        <!-- Add more classes as needed -->
+                    </select>
+                </div>
+                <button type="submit" class="submit-button">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Student Testimonials</h2>
+            <div class="testimonials-slider">
+                <!-- Testimonial cards will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/9177746680" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Website by MohanaRavali | Need one? <a href="mailto:mohanaravalipaila06@gmail.com">Contact me</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
