@@ -99,6 +99,39 @@ body {
     color: var(--text-color);
 }
 
+.hero-features {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.hero-features .highlight-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.hero-features ul {
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.hero-features li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: var(--text-color);
+}
+
+.hero-features .contact-info {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
 /* Video Container Styles */
 .video-container {
     max-width: 800px;
@@ -561,6 +594,22 @@ section h2 {
     
     .testimonial-card {
         padding: 20px;
+    }
+    
+    .hero-features {
+        padding: 1.5rem;
+    }
+    
+    .hero-features .highlight-text {
+        font-size: 1.1rem;
+    }
+    
+    .hero-features li {
+        font-size: 1rem;
+    }
+    
+    .hero-features .contact-info {
+        font-size: 1rem;
     }
 }
 
