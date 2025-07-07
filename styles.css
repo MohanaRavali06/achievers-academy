@@ -67,6 +67,11 @@ body {
     transition: color 0.3s ease;
 }
 
+.academy-features{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .nav-links a:hover {
     color: var(--primary-color);
 }
